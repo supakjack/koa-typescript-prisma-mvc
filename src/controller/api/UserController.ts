@@ -1,10 +1,10 @@
 import { Prisma } from "@prisma/client";
-import { UserModel } from "./../model/UserModel";
+import { UserModel } from "./../../model/UserModel";
 import { Next } from "koa";
 import { Context } from "koa";
-import { ApplicationController } from "./ApplicationController";
+import { ApplicationApiController } from "./ApplicationApiController";
 
-export class UserController extends ApplicationController {
+export class UserController extends ApplicationApiController {
   constructor(private userModel = new UserModel(true)) {
     super();
   }
