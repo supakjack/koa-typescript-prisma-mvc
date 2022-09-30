@@ -10,6 +10,7 @@ This template is allready set for mvc web application, enjoy !
 - Router
 - Body paser
 - Class base
+- View template with ejs
 - Typescript
 - Command for run develpment and production
 
